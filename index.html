@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name = "viewport" content = "width=device-width,initial-scale=1.0" />
+        <title>People Search</title>
+        <link rel = "stylesheet" href = "style.css" />
+
+
+    </head>
+    <body>
+        <div id = "container">
+            <header>
+                    <h1>Managing your Vehicle</h1>
+                <ul>
+                    <li><a href = "index.html">People Search</a></li>
+                    <li><a href = "vehicle.html">Vehicle search</a></li>
+                    <li><a href = "add.html">Add a vehicle</a></li>
+                </ul>
+            </header>
+            <aside>
+                <img src = "https://www.topgear.com/sites/default/files/news-listicle/image/bmw-e30-m3-redux-09.jpg" alt = " BMW E30 M3"  width = "300" height = "200" />
+            </aside>
+            <main>
+                <section id = "people">
+                    <h2>People Search</h2>
+                    <form id = "people-search-form">
+                        <label for="name">Enter a name :</label>
+                        <input type = "text" id="name" name="name"/>
+                        <button type = "submit">Submit</button>
+                    </form>
+                    <div id="message"></div>
+                    <div id="results"></div>
+                </section>
+                <section id = "vehicle">
+                    <h2>Vehicle Search</h2>
+                </section>
+                <section id = "add">
+                    <h2>Add a vehicle</h2>
+                </section>
+            </main>
+        </div>
+        <script type = "module" src = "main.js"></script>
+    </body>
+
+</html>
