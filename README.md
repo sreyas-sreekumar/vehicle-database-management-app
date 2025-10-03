@@ -17,7 +17,7 @@ A responsive web application for managing people and vehicle records, built with
 - Testing: Playwright
 
 ## Screenshots
-
+![Image](screenshots/Screenshot 2025-10-03 at 13.15.03.png)
 ## Getting Started
 1. Clone the repo  
 2. Create a `.env` with your Supabase keys  
